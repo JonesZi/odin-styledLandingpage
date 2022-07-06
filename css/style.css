@@ -1,0 +1,76 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+nav, 
+.spotlight, 
+footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-style: light italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.cta,
+button {
+    background-color: #3882F6;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+nav, 
+.left>p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.card>p {
+    color:#1F2937;
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+nav,
+ul,
+.cards,
+.cta,
+footer {
+    display: flex;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    gap:15px;
+}
+
+nav {
+    justify-content: space-between;
+}
