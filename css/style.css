@@ -1,3 +1,4 @@
+/* Fonts, Colors and basic styling of elements */
 * {
     font-family: Verdana, sans-serif;
 }
@@ -52,6 +53,19 @@ a {
     color:#E5E7EB;
 }
 
+.logo {
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight:bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Layout */
+
 body {
     display:flex;
     flex-direction: column;
@@ -61,16 +75,34 @@ nav,
 ul,
 .cards,
 .cta,
-footer {
+footer,
+.container,
+.spotlight {
     display: flex;
 }
 
 ul {
     margin:0;
     padding:0;
-    gap:15px;
+    gap: 16px 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 nav {
     justify-content: space-between;
+    align-items: center;
+    padding: 30px clamp(30px,20vw,150px);
+    gap: 50px;
+}
+
+.spotlight {
+    padding: 30px clamp(30px,20vw,150px);
+    gap: 50px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
