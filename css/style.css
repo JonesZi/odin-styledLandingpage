@@ -19,18 +19,36 @@ footer {
 .cta,
 button {
     background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+button {
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900;
     color:#1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
 
 nav, 
@@ -69,6 +87,7 @@ img {
 body {
     display:flex;
     flex-direction: column;
+    margin: 0;
 }
 
 nav,
@@ -92,17 +111,29 @@ ul {
 nav {
     justify-content: space-between;
     align-items: center;
-    padding: 30px clamp(30px,20vw,150px);
+    padding: 30px clamp(30px,20vw,500px);
     gap: 50px;
 }
 
 .spotlight {
-    padding: 30px clamp(30px,20vw,150px);
+    padding: 30px clamp(30px,20vw,500px);
     gap: 50px;
+    align-items: center;
 }
 
 .image {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1 1 0px;
+}
+
+.left {
+    gap: 5px;
+    vertical-align: center;
+    flex: 1 1 0px;
+}
+
+.headerbtn {
+    margin-top: 5px;
 }
