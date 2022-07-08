@@ -205,3 +205,10 @@ nav {
     border:2px solid #E5E7EB;
     font-weight: bold;
 }
+
+footer {
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 30px clamp(30px,20vw,500px)
+}
