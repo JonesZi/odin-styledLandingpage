@@ -137,3 +137,39 @@ nav {
 .headerbtn {
     margin-top: 5px;
 }
+
+.illustration {
+    width: 170px;
+    height: 170px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 50px clamp(30px,20vw,500px)
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card>p {
+    width: 170px;
+    height: auto;
+    text-align: center;
+}
+
+.cards {
+    gap: 30px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
