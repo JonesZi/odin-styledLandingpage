@@ -46,6 +46,11 @@ h2 {
     padding: 0;
 }
 
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -186,5 +191,17 @@ nav {
 
 .qauthor {
     text-align: right;
+    font-weight: bold;
+}
+
+.cta {
+    margin: 80px clamp(30px,20vw,500px); 
+    padding: 30px 70px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.cta-btn {
+    border:2px solid #E5E7EB;
     font-weight: bold;
 }
