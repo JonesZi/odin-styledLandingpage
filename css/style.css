@@ -1,6 +1,6 @@
 /* Fonts, Colors and basic styling of elements */
 * {
-    font-family: Verdana, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 nav, 
@@ -172,4 +172,19 @@ nav {
     gap: 30px;
     justify-content: space-between;
     /* flex-wrap: wrap; */
+}
+
+.quote {
+    padding: 50px clamp(30px,20vw,500px);
+    margin-top: 20px;
+}
+
+.qtext {
+    font-style: italic;
+    font-weight: 50;
+}
+
+.qauthor {
+    text-align: right;
+    font-weight: bold;
 }
